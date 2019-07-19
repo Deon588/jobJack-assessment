@@ -1,0 +1,7 @@
+# In .dockerignore
+.git
+.dockerignore
+dist
+Dockerfile
+test
+node_modules

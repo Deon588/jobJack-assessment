@@ -1,0 +1,5 @@
+<mat-toolbar class="toolbar mat-elevation-z1" color="primary">
+	<h4 style="margin-right: 20px">Directory Lister</h4>
+	<app-search-box (busy)="emitBusy($event)" (results)="emitResults($event)"></app-search-box>      
+	<span class="fill-remaining-space"></span>		
+</mat-toolbar>

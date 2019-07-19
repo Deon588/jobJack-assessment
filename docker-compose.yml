@@ -1,0 +1,15 @@
+version: '3.0'
+services:
+  jobjack-ui:  
+    build: jobjack-assessment-ui
+    container_name: jobjack-ui
+    ports:
+      - "4200:80"
+      - "443:443"
+    links:
+      - jobjack-api
+  jobjack-api:
+    build: jobjack-assessment-api
+    container_name: jobjack-api
+    ports:
+      - "3000:3000"      

@@ -1,0 +1,25 @@
+.toolbar {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 100;
+}
+
+.fill-remaining-space {
+	flex: auto;
+}
+
+.rhs {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+.rhs-icon {
+	margin-right: 5px;
+	display: inline-flex;
+	vertical-align: middle;
+}
