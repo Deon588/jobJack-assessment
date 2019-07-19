@@ -1,7 +1,7 @@
 version: '3.0'
 services:
   jobjack-ui:  
-    build: jobjack-assessment-ui
+    build: jobjack-assessment-ui      
     container_name: jobjack-ui
     ports:
       - "4200:80"

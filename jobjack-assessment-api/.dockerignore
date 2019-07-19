@@ -1,7 +1,7 @@
 # In .dockerignore
 .git
 .dockerignore
-dist
 Dockerfile
+dist
 test
 node_modules
